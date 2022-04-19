@@ -1,0 +1,125 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+
+}
+body{
+    margin:0;
+    padding:0;
+    background: url(https://images.pexels.com/photos/28054/pexels-photo-28054.jpg?cs=srgb&dl=pexels-scott-webb-28054.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header{
+    /* border:  1px solid white;  */
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.left{
+    /* border:  1px solid white;  */
+    border-radius: 10px;
+    margin: 30px auto;
+    /* border:1px solid red; */
+    width: 20%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+
+}
+.left span{
+    color: white;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.left img{
+    width: 50px;
+    border-radius: 20px;
+    height: 50px;
+    filter: invert(100%);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.mid{
+    /* border:  1px solid white ; */
+    border-radius: 10px;
+    margin: 30px auto;
+    /* border:1px solid green; */
+    margin: 10px;
+    width: 60%;
+}
+.mid li{
+    display: inline;
+    float:left;
+    margin: 20px;
+    margin-left: 120px;
+
+
+}
+.mid li a{
+    text-decoration: none;
+    color: white;
+}
+.mid li a:hover ,.mid li a.active{
+    color: grey;
+
+
+}
+.right{
+    /* border:  1px solid white;  */
+    border-radius: 10px;
+    margin: 30px auto;
+    /* border:1px  solid yellow; */
+    margin: 10px;
+    padding: 30px;
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:lightblue;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.form{
+    border:  1px solid white;
+    border-radius: 10px;
+    margin: 30px 100px;
+    width: 40%;
+    color: white;
+    text-align: center;
+
+}
+.form input{
+    display: block;
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    
+}
+.form button{
+    display: block;
+    width: 430px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+
+}
+.form button:hover{
+    background-color: white;
+    color: black;
+}
